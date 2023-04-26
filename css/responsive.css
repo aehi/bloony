@@ -1,0 +1,483 @@
+/* mobile 400 */
+
+@media all and (min-width:400px){
+    #visual .bg_bloony img:last-child {
+        bottom:105px;
+        left:calc(50% + 20px);
+
+    }
+    #bloony .bloonies .prev {
+        left:4%;
+    }
+    #bloony .bloonies .next {
+        right:4%;
+    }
+
+    #bloony .bloonies_slide {
+        width:300px;
+    }
+
+    #bloony .bloonies_slide li {
+        padding-left:120px;
+    }
+    .footer_bottom .copy p {
+        letter-spacing:0;
+    }
+}
+
+
+/* pc 1920 */
+
+@media screen and (min-width:768px){
+    
+    html {
+        scroll-padding-top:90px;
+    }
+
+    /* header */
+    header h1 {
+        top:48px;
+        width:190px;
+    }
+    header h1 p {
+        font-size:2rem;
+        margin-top:6px;
+        letter-spacing:0.02em;
+    }
+    header .lang_box {
+        top:53px;
+    }
+    header .lang_box li:first-child:after {
+        font-size:2.2rem;
+        margin:0 29px 0 29px;
+    }
+    header .lang_box li a {
+        font-size:2.2rem;
+    }
+    
+    /* visual - 1920 */
+    #visual {
+        height:1024px;
+        padding-top:160px;
+    }
+   
+    #visual .title i {
+        font-size:5rem;
+        letter-spacing:-0.02em;
+    }
+    #visual .title h1 {
+        font-size:9.4rem;
+        line-height:1.09;
+        margin-top:20px; 
+    }
+    #visual .title a {
+        margin-top:48px;
+    }
+  
+    #visual .bg_bloony img {
+        width:760px;
+        max-width:95%;
+    }
+    #visual .bg_bloony img:last-child {
+        width:660px; 
+        bottom:230px;
+    }
+    
+    /* nav - 1920 */
+ 
+    nav {
+        margin:0 auto;
+    }
+    nav .gnb {
+        width:750px;
+        margin:0 auto;
+    }
+   
+    nav .gnb li a {
+        height:154px;
+        line-height:156px;
+        font-size:2.2rem;
+        letter-spacing:-0.045em;
+    }
+  
+    nav .gnb li:after {
+        top:16px;
+        width:2px;
+        height:123px;
+    }
+
+    nav .gnb.sticky li a {
+        height:100px;
+        line-height:102px;
+        transition:.2s;
+    }
+    nav .gnb.sticky li:after {
+        height:70px;
+    }
+
+    /* hover underline */
+    nav .gnb li:hover a:after,
+    nav .gnb li:focus a:after {
+        width:105px;
+        height:2px;
+        bottom:64px;
+    }
+    nav .gnb li:nth-child(2):hover a:after,
+    nav .gnb li:nth-child(2):focus a:after {
+        width:78px;
+    }
+    nav .gnb li:nth-child(3):hover a:after,
+    nav .gnb li:nth-child(3):focus a:after {
+        width:55px;
+    }
+    nav .gnb li:nth-child(4):hover a:after,
+    nav .gnb li:nth-child(4):focus a:after {
+        width:98px;
+    }
+    nav .gnb.sticky li:hover a:after,
+    nav .gnb.sticky li:focus a:after {
+        bottom:37px;
+    }
+
+    /* bloony -1920 */
+    #bloony .bloony_inner {
+        padding-top:160px;
+    }
+    #bloony h2 {
+        font-size:5.2rem;
+        margin-bottom:23px;
+    }
+    #bloony p {
+        font-size:2.6rem;
+        line-height:1.538;
+        letter-spacing:-0.015em;
+    }
+    #bloony .video_wrap {
+        margin:27px 0 3px;
+    }
+    #bloony .video_wrap video {
+        width:720px;
+    }
+    #bloony p:nth-of-type(2) {
+        font-size:2.2rem;
+        margin-bottom:25px;
+    }
+    #bloony em {
+        font-size:2rem;
+        letter-spacing:-0.015em;
+        line-height:1.7;
+    }
+    #bloony em:before {
+        width:19px;
+        height:20px;
+        vertical-align:-2px;
+    }
+    
+    #bloony .bloonies {
+        width:720px;
+        margin:0 auto;
+        padding-top:90px;
+    }
+    #bloony .bloonies h3 {
+        font-size:3.4rem;
+        margin-bottom:8px;
+    }
+   
+    #bloony .bloonies .prev, 
+    #bloony .bloonies .next {
+        width:18px;
+        height:35px;
+        top:330px; 
+    }
+    #bloony .bloonies .prev {
+        left:20px;
+    }
+    #bloony .bloonies .next {
+        right:20px;
+    }
+    #bloony .bloonies_slide {
+        width:510px;
+        margin-top:70px;
+    }
+    
+    #bloony .bloonies_slide li {
+        background-position:0;
+        background-size:139px;
+        padding-left:200px;
+    }
+    #bloony .bloonies_slide li h4 {
+        font-size:2.2rem;
+        line-height:1.454;
+    }
+    #bloony .bloonies_slide li i {
+        font-size:1.8rem;
+        line-height:2.5;
+    }
+    #bloony .bloonies_slide li p {
+        font-size:1.8rem;
+        line-height:1.88;
+    }
+    #bloony .indicator {
+        margin-top:65px;
+    }
+    
+   
+    
+    /* topic - 1920 */
+    #topic .topic_inner {
+        padding-top:160px;
+    }
+    #topic h2 {
+        font-size:5.2rem;
+        margin-bottom:21px;
+    }
+    #topic i {
+        font-size:2.8rem;
+        letter-spacing:-0.02em;
+    }
+    #topic p {
+        font-size:2.6rem;
+        line-height:1.538;
+        letter-spacing:-0.015em;
+        margin-top:25px;
+    } 
+    
+    #topic .video_wrap {
+        margin:15px 0; 
+    }
+    #topic .video_wrap video {
+        width:90%;
+        max-width:none;
+    }
+    #topic .control {
+        margin:30px 0 55px;
+    }
+    #topic .control button {
+        width:13px;
+        height:16px;
+        left:calc(50% - 37px);
+    }
+    #topic .control .btn_pause {
+        left:calc(50% + 37px);
+    }
+    #topic .control button.on {
+        width:28px;
+        height:28px;
+    }
+    #topic i {
+        line-height:1.21;
+    }
+    
+    
+    /* tips- 1920 */
+    
+    #tips .tips_inner {
+        padding-top:160px;
+        width:800px;
+        max-width:94%;
+    }
+
+    #tips h2 {
+        font-size:5.2rem;
+        margin-bottom:21px;
+    }
+    #tips p {
+        font-size:2.6rem;
+        line-height:1.538;
+        letter-spacing:-0.015em;
+        margin:25px 0 65px;
+    }
+   
+    /* 이미지의 그림자 값만큼 이동 */
+    #tips .tips_slide .slide_inner {
+        margin-left:10px;
+    }
+    #tips .tips_slide .slide_inner li {
+        max-width:none;
+    }
+        
+    #tips .indicator {
+        margin-top:60px;
+        padding-right:31px;
+    }
+    #tips .indicator .btn_stop {
+        width:16px;
+        height:16px;
+        margin-left:31px;
+        background:url(../img/icon-play.png) no-repeat center/contain;
+        text-indent:-9999px;
+        overflow:hidden;
+    } 
+    
+    /* friendMe - 1920 */
+    #friendMe {
+        padding-top:160px; 
+        padding-bottom:70px;
+    }
+    #friendMe h2 {
+        font-size:5.2rem;
+        margin-bottom:21px;
+    }
+    #friendMe p {
+        font-size:2.6rem;
+        line-height:1.66;
+        letter-spacing:-0.015em;
+        margin-top:23px;
+    }
+    #friendMe .img_talk {
+        margin:70px 0;
+        width:720px;
+        height:986px;
+        max-width:none;
+        background-image:url(../img/img-talk-friendme.png);
+        /* 이미지의 그림자 값만큼 이동 */
+        margin-left:12px;
+    }
+    #friendMe a {
+        width:600px;
+    }
+    #friendMe a.btn_faq {
+        line-height:92px;
+        height:90px;
+        margin-bottom:12px;
+        font-size:2.4rem;
+        letter-spacing:-0.015em;
+        border-radius:90px;
+    }
+    
+    
+    /* footer - 1920 */
+  
+    footer .footer_top {
+        padding-top:60px;
+        height:146px;
+    }
+    .footer_top .footer_logo {
+        width:190px;
+    }
+    .footer_top .footer_logo p {
+        font-size:2rem;
+        margin-top:6px;
+    }
+    .footer_top .policy {
+        margin-top:20px;
+    }
+    .footer_top .policy li:first-child:after {
+        margin:0 20px 0 24px;
+        font-size:1.6rem;
+    }
+    .footer_top .policy li a {
+        font-size:1.6rem;
+        letter-spacing:0;
+    }
+    
+    .footer_bottom {
+        padding:48px 0 58px;
+    }
+    .footer_bottom .copy{
+        line-height:1.66;
+    }
+    .footer_bottom .copy p {
+        margin-bottom:96px;
+        font-size:1.8rem;
+    }
+    .footer_bottom .copy p span:after {
+        margin:0 13px 0 15px;
+    }
+    .footer_bottom .copy p span:last-of-type:after {
+        display:none;
+    }
+    .footer_bottom .copy > em {
+        font-size:1.6rem;
+    }
+    
+    .footer_bottom .sns {  
+        bottom:58px;
+    }
+    .footer_bottom .sns a {
+        width:48px;
+        height:48px;
+        margin-left:12px;
+    }
+    
+}
+@media screen and (min-width:960px){
+    /* nav */
+
+    nav {
+        width:96%;
+        max-width:1560px;
+        border-radius:154px;
+    }
+
+    nav .gnb.sticky li a {
+        border-radius:100px;
+    }
+    /* topic */
+    #topic .video_wrap video {
+        width:625px;
+    }
+}
+
+@media screen and (min-width:1250px){
+    /* nav */
+
+    nav:after {
+        content:"";
+        position:absolute;
+        bottom:-32px;
+        left:168px;
+        width:65px;
+        height:64px;
+        background:url(../img/img-bloonies-nav.png) no-repeat center/contain;
+    }
+
+    /* blonny */
+
+    /* animation */
+    #bloony .video_wrap:before {
+        content:"";
+        position:absolute;
+        bottom:130px;
+        left:95px;
+        width:90px;
+        height:90px;
+        background:url(../img/img-bloonies-video.png) no-repeat center/contain;
+        animation:bounce 2.5s linear infinite;
+    }
+
+    @keyframes bounce {
+        0% {
+        }
+        50% {
+            transform:translateY(-15px);
+        }
+        100% {
+        }
+    }
+    
+    /* tips */
+    
+
+    #tips .tips_slide {
+        position:relative;
+    }
+    #tips .tips_slide .prev, 
+    #tips .tips_slide .next {
+        display:block;
+        background:url(../img/arrow-left.png) no-repeat;
+        background-size:contain; 
+        width:28px;
+        height:54px;
+        position:absolute;
+        top:50%; 
+        transform:translateY(-80px);
+    }
+    #tips .tips_slide .prev {
+        left:-60px;
+    }
+    #tips .tips_slide .next {
+        background-image:url(../img/arrow-right.png); 
+        right:-60px;
+    }
+}

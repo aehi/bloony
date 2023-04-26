@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* font */
+
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style:normal;
+    font-weight:350;
+    src:local("NotoSansKR-DemiLight"),
+        url(../font/NotoSansKR-DemiLight.woff) format("woff"), 
+        url(../font/NotoSansKR-DemiLight.otf) format("opentype");
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style:normal;
+    font-weight:500;
+    src:local("NotoSansKR-Medium"),
+        url(../font/NotoSansKR-Medium.woff) format("woff"), 
+        url(../font/NotoSansKR-Medium.otf) format("opentype");
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    font-style:normal;
+    font-weight:700;
+    src:local("NotoSansKR-Bold"),
+        url(../font/NotoSansKR-Bold.woff) format("woff"), 
+        url(../font/NotoSansKR-Bold.otf) format("opentype");
+}
+  
+
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-style:normal;
+    font-weight:300;
+    src:local("GmarketSansLight"),
+        url(../font/GmarketSansLight.otf) format("opentype");
+}
+@font-face {
+    font-family: 'GmarketSans';
+    font-style:normal;
+    font-weight:500;
+    src:local("GmarketSansMedium"),
+        url(../font/GmarketSansMedium.otf) format("opentype");
+}
+@font-face {
+    font-family: 'GmarketSans';
+    font-style:normal;
+    font-weight:700;
+    src:local("GmarketSansBold"),
+        url(../font/GmarketSansBold.otf) format("opentype");
+}
+
+
+/* common */
+.hide {display: none;}
+.blind {
+    position:absolute;
+    left:-9999px;
+}
+.clear:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.pc {display:none;}
+.mobile {}
+
+.width {
+    width:92%;
+    margin:0 auto;
+    text-align:center;
+}
+
+/* top_banner */
+.top_banner {
+    background-color:#75aaf7;
+    padding:13px 0 10px;
+    font-family:'Noto Sans KR', sans-serif;
+}
+.top_banner a {
+    text-align:center;
+    color:#fff;
+    font-family:'Noto Sans KR', sans-serif;
+    font-weight:700;
+    font-size:1.2rem;
+}
+.top_banner a p:hover {
+    text-decoration:underline;
+
+}
+.top_banner a p {}
+.top_banner a p:nth-child(2) {
+    font-size:1rem;
+    font-weight:350;
+    letter-spacing:-0.01em;
+    margin-top:5px;
+    text-decoration:none;
+
+}
+
+
+/* btn_list */
+
+.btn_list {
+    display:inline-block;
+    width:260px;
+    line-height:47px;
+    height:45px;
+    font-size:1.3rem;
+    font-weight:700;
+    letter-spacing:-0.01em;
+    border-radius:45px;
+    color:#fff;
+    background-color:#0e0e0e;
+}
+.btn_list:after {
+    content:"";
+    display:inline-block;
+    width:24px;
+    height:24px;
+    background:url(../img/icon-messenger.png) no-repeat;
+    background-size:contain;
+    margin-left:9px;
+    vertical-align:-7px;
+}
+
+/* slide indicator */
+.slick-dotted.slick-slider {
+    margin-bottom:0;
+}
+.indicator {
+    display:inline-block;
+}
+.indicator li {
+    display:inline-block;
+    margin-right:9px;
+}
+.indicator li:last-child {
+    margin-right:0;
+}
+.indicator li button {
+    width:10px;
+    height:10px;
+    border:1px solid #83a5d3;
+    border-radius:10px;
+    text-indent:-9999px;
+    overflow:hidden;
+}
+.indicator li.slick-active button {
+    background-color:#83a5d3;
+}
+
+/* pc 1920 */
+
+@media screen and (min-width:768px){
+
+    /* common - pc */
+
+    .pc {display:block;}
+    .mobile {display:none;}
+
+    .width {
+        max-width:1200px;
+    }
+
+    /* top_banner - pc */
+    .top_banner {
+        padding:25px 0 24px;
+    }
+    .top_banner a {
+        font-size:2.4rem;
+    }
+    
+    .top_banner a p {}
+    .top_banner a p:nth-child(2) {
+        font-size:2rem;
+        margin-top:6px;
+    }
+
+
+    /* btn_list - pc */
+
+    .btn_list {
+        display:block;
+        width:480px;
+        line-height:92px;
+        height:90px;
+        font-size:2.4rem;
+        letter-spacing:-0.02em;
+        border-radius:90px;
+    }
+    .btn_list:after {
+        width:48px;
+        height:48px;
+        margin-left:11px;
+        vertical-align:-17px;
+
+    }
+   
+
+    /* slide indicator - pc */
+  
+    .indicator li {
+        margin-right:15px;
+    }
+  
+    .indicator li button {
+        width:16px;
+        height:16px;
+        border-radius:16px;
+    }
+    
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* reset */
+html, body, p, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, tr, td, form, fieldset, 
+input, button, label, legend, textarea, select, header, footer, main, aside, nav, section, article, 
+figure, a, span, strong, em, b, i, address, audio, video {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+}
+html {
+    font-size:0.625em;
+    color:#97989d;
+}
+body, h1, h2, h3, h4, h5, h6, button {
+    font-family:'GmarketSans', 'Noto Sans KR', sans-serif;
+    line-height:1;
+    font-weight:500;
+}
+ul, ol, li {list-style:none;} 
+a {
+    text-decoration:none;
+    color:#97989d;
+}
+img, fieldset {
+    border:none;
+    vertical-align:middle;
+}
+strong, em, b, i, address, cite {
+    font-weight:500;
+    font-style:normal;
+}
+table {border-collapse:collapse;}
+button {
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+}
